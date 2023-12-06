@@ -1,4 +1,4 @@
-FROM python:3.9.0-alpine
+FROM python:3.11.6-alpine
 
 ENV APP_USER snyk_watcher
 ENV APP_DIR /home/$APP_USER
